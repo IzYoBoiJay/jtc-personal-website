@@ -1,0 +1,62 @@
+.divNav {
+    position: fixed;
+    width: 100%;
+    padding-top: 1.5625vw;
+    padding-bottom:1.5625vw;
+    /* background-color: #1d1d1d; */
+    z-index: 10;
+}
+
+.Navbar {
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+
+}
+
+.Navbar ul {
+
+    list-style-type: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+    gap: 2rem;
+
+}
+
+.Navbar li {
+
+    display: block;
+    position: relative;
+    top: 0;
+    text-align: center;
+    color: #90caf9;
+    float: left;
+    padding-right: calc(8px + 1.5625vw);
+    padding-left: calc(8px + 1.5625vw);
+
+}
+
+.Navbar li:last-of-type {
+
+    margin-right: calc(8px + 1.5625vw);
+
+}
+
+#Name {
+
+    font-weight: 700;
+    float: left;
+    color: #9fa8da;
+    margin-left: calc(8px + 1.5625vw);
+}
+
+.Navbar Link {
+
+    display: block;
+    text-decoration: none;
+    color: white;
+    
+}
